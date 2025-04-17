@@ -1,0 +1,580 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR STYLES */
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active {
+  color: rgba(100, 148, 237, 0.9);
+}
+
+.navbar-brand {
+  font-weight: 500;
+  font-size: 25px;
+  color: #092032;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 20px;
+  color: #092032;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+}
+@media (max-width: 768px) {
+  .section h2 {
+    font-size: 1.8rem;
+  }
+  .section h5 {
+    font-size: 1.2rem;
+  }
+  .btn-brand {
+    font-size: 0.9rem;
+  }
+  .content h6 {
+    font-size: 1.2rem;
+  }
+}
+
+/* HERO SECTION */
+.first {
+  background-image: url(../images/churchl.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  color: #092032;
+  display: grid;
+  justify-content: start;
+  text-align: right;
+}
+@media (max-width: 576px) {
+  .first h5 {
+    font-size: 1.2rem;
+  }
+
+  .first h2 {
+    font-size: 1.5rem;
+  }
+
+  .btn-brand {
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .hero h2,
+  .hero p {
+    font-size: 1.5rem;
+  }
+}
+
+.content{
+  padding: 70px;
+  justify-content: center;
+}
+/* BUTTONS */
+.btn {
+  padding: 9px 24px;
+  font-weight: 500;
+}
+
+.btn-brand {
+  background-color: rgba(100, 148, 237, 0.9);
+  color: #fff;
+  border: none;
+}
+
+.btn-brand:hover {
+  background-color: rgba(100, 148, 237, 0.5);
+  color: #092032;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+/* ICON */
+.large-icon {
+  font-size: 70px;
+  color: rgba(100, 148, 237, 0.9);
+  display: inline-flex;
+  text-align: center;
+}
+
+/* DONATION SECTION */
+.our-goal {
+  display: grid;
+  place-items: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.support {
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-size: 0.9rem;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.support .tag {
+  position: absolute;
+  bottom: -10px; /* Moves it slightly outside the image */
+  left: 20px; /* Adjust as needed */
+  background-color: rgba(100, 148, 237, 0.9);
+  color: #fff;
+  padding: 5px 12px;
+  font-size: 0.85rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  z-index: 2;
+  transition: box-shadow 0.3s ease;
+}
+.support h5 {
+  padding-top: 20px;
+}
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.size {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  padding-bottom: 15px;
+  object-fit: cover;
+}
+
+.support a {
+  font-weight: 700;
+}
+
+#line {
+  margin-top: 30px;
+  height: 8px;
+  width: 70%;
+  background-color: rgba(100, 148, 237, 0.9);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cause {
+  display: inline-block;
+  margin: 40px auto 0;
+}
+
+/* MISSION SECTION */
+.mission {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.mission h5 {
+  color: rgba(100, 148, 237, 0.76);
+}
+.section {
+  background-color: rgba(100, 148, 237, 0.103);
+  height: 80vh;
+}
+
+.cl {
+  font-size: 100px;
+  background-color: rgba(100, 148, 237, 0.9);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.read {
+  font-weight: 400;
+  font-size: 0.9rem;
+  background-color: #fff;
+  color: #092032;
+  border: 1px solid #fff;
+  margin-top: 10px 70px;
+  padding: 6px 18px;
+  transition: 0.3s ease;
+}
+
+.read:hover {
+  background-color: #092032;
+  color: #fff;
+}
+
+/* MOTTO SECTION */
+.motto {
+  background: linear-gradient(rgba(9, 33, 52, 0.8), rgba(9, 33, 52, 0.8)),
+    url(../images/church7.jpg) no-repeat center center;
+  background-size: cover;
+  height: 70vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-inline: 30px;
+}
+.motto h6 {
+  color: rgba(100, 148, 237, 0.89);
+  margin-bottom: 20px;
+}
+.motto h2 {
+  margin-bottom: 20px;
+}
+
+.bg-cover {
+  padding: 0 15px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.about {
+  text-align: center;
+  margin: 50px;
+}
+.about h6 {
+  color: rgba(100, 148, 237, 0.89);
+}
+.faith {
+  padding: 30px;
+  align-items: center;
+  text-align: left;
+  padding-left: 20px;
+  justify-content: center;
+}
+.faith h4 {
+  margin-top: 30px;
+  padding-bottom: 10px;
+  font-weight: 650;
+}
+.faith p {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+  word-spacing: 2px;
+}
+.star {
+  font-size: 70px;
+  color: rgba(195, 154, 58, 0.5);
+  display: flex;
+  text-align: center;
+  padding-top: 20px;
+}
+.puz {
+  margin-top: 70px;
+  margin-bottom: 120px;
+}
+.puzzle {
+  text-align: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.puzzle h4 {
+  font-weight: 650;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.solve h4 {
+  font-weight: 600;
+  padding-top: 15px;
+  font-size: xx-large;
+  color: rgba(100, 148, 237, 0.993);
+}
+.solve p {
+  font-size: large;
+  word-spacing: 1px;
+}
+.tick-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px; 
+  margin-top: 20px; 
+}
+.tick-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  font-size: 14px;
+  color: #092032;
+}
+.tick-list li i {
+  position: static;
+  color: rgba(100, 148, 237, 0.961);
+  font-size: 16px;
+}
+.program {
+  padding: 8px 10px;
+  font-size: 12px;
+  line-height: 2;
+  justify-content: left;
+  text-align: center;
+  align-items: left;
+  margin-top: 10px;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.review img {
+  width: 90px !important;
+  box-sizing: border-box;
+  margin-top: 30px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+.review p {
+  text-align: center !important;
+  align-items: center;
+  font-size: small;
+  max-width: 600px;
+}
+.rev {
+  background-color: rgba(100, 148, 237, 0.103);
+  padding: 100px;
+  justify-content: center;
+  width: 100vw;
+}
+.rev h6 {
+  color: rgba(100, 148, 237, 0.89);
+  font-style: oblique;
+}
+/*OWL CAROUSEEL*/
+@media (max-width: 576px) {
+  .owl-prev,
+  .owl-next {
+    display: none !important;
+  }
+}
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  width: 50px !important;
+  height: 50px !important;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 128, 0.486) !important;
+  margin-top: -30px !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: 12px;
+  border-radius: 100px !important;
+  transform: translateY(-50%);
+}
+.owl-prev {
+  left: 0;
+}
+.owl-next {
+  right: 0;
+}
+.owl-next:hover,
+.owl-prev:hover {
+  background-color: rgba(100, 148, 237, 0.9) !important;
+}
+#hero-slider{
+  position: relative;
+}
+.goal {
+  margin-bottom: 70px;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.about h6 {
+  color: rgba(100, 148, 237, 0.89);
+  font-style: oblique;
+}
+.about p {
+  text-align: center !important;
+  align-items: center;
+  font-size: small;
+  max-width: 600px;
+}
+.shape {
+  height: 250px;
+  width: 250px;
+}
+.bell {
+  font-size: 50px;
+  background-color: rgba(100, 148, 237, 0.9);
+  display: inline-flex;
+  text-align: center;
+}
+.pay {
+  margin-top: 90px;
+  display: grid;
+}
+.pay h6 {
+  padding-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: 700;
+}
+.pay p {
+  font-size: small !important;
+  padding-bottom: 8px;
+}
+.discover {
+  background-color: rgba(100, 148, 237, 0.103);
+  padding: 80px;
+  margin-bottom: 70px;
+}
+.discover .btn {
+  text-align: justify;
+}
+.news {
+  padding-top: 50px;
+  box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  padding: 1rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.news h5 {
+  padding-top: 15px;
+  font-weight: 500;
+  font-size: medium;
+}
+.news p {
+  font-size: small;
+}
+.news .btn {
+  font-weight: 400;
+  font-size: 0.75rem; /* Slightly smaller text */
+  background-color: rgba(100, 148, 237, 0.9);
+  color: #fff;
+  border: none;
+  padding: 0.4em 1em; /* Scales with font size */
+  border-radius: 3px; /* Optional: softens corners */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.bot {
+  margin-top: 50px;
+}
+.footer-top {
+  background-image: url(../images/dark.jpg);
+  background-size: cover;
+  height: 70vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 30px;
+}
+
+.down {
+  /* display: flex; */
+  align-items: center; /* make button match form height if needed */
+  /* width: 50%; */
+  justify-content: center !important;
+  padding-top: 30px;
+  
+}
+
+
+/* .down form, .down .btn {
+  flex: 1; 
+  height: 40px; 
+  border: 1px solid #ccc; 
+  padding: 0.5rem; 
+  border-radius: 0.5rem; 
+  justify-content: center;
+} */
+
+#email{
+  border-right: none; /* Removes right border between form and button */
+  background-color: rgba(128, 128, 128, 0.457)
+  
+}
+.down input[type="text"],
+.down input[type="email"] {
+  flex: 1;
+  height: 38px;
+  padding: 0 0.8rem;
+  border: 1px solid  #ffffff97;
+  border-right: none; /* removes right border to let button take over */
+  border-radius: 0.5rem 0 0 0.5rem;
+  outline: none;
+  margin-right: -20px;
+}
+
+.down .btn {
+  flex: 1;
+  height: 45px;
+  background-color: rgba(100, 148, 237, 0.9);
+  color: white;
+  border: 1px solid rgba(100, 148, 237, 0.9);
+  border-left: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  margin-left: -5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 400;
+}
+.footer-top ::placeholder{
+  color: gray;
+  opacity: 1;
+}
+.footer-bottom{
+  background-color: #f5f5f5;
+  padding: 70px;
+}
+.social-icons{
+  color:  navy;
+  font-size: x-large;
+
+}
+.social-icons :hover{
+  background-color:  navy;
+  border:  0 0.5rem 0.5rem 0;
+  color: #fff;
+  border-radius: 40%;
+
+}
+.footer-bottom a{
+  text-decoration: none;
+  justify-content: center;
+}
+
+.footer-bottom input[type="email"],
+.footer-bottom input[type="text"] {
+  border: 2px solid #ccc !important; /* or whatever color you want */
+  border-radius: 6px;
+  outline: none;
+  background-color: #f5f5f5 !important;
+  height: 38px;
+  margin-bottom: 8px;
+}
+.copy{
+  margin-bottom: 50px;
+}
+.footer-link{
+  color: #092032;
+  text-decoration: none;
+}
+.footer-link:hover{
+ background-color: navy !important;
+ color: #fff;
+}
