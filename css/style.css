@@ -1,6 +1,6 @@
-body {
+/* body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+} */
 
 /* NAVBAR STYLES */
 .navbar .navbar-nav .nav-link:hover,
@@ -104,19 +104,19 @@ body {
 
 @media (max-width: 576px) {
   body {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   h2 {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 
   h3 {
-    font-size: 1.35rem;
+    font-size: 1.75rem;
   }
 
   p,
