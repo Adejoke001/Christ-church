@@ -16,7 +16,7 @@ body {
 
 .nav-link {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
   color: #092032;
 }
 /* @media (max-width: 576px) {
@@ -48,8 +48,8 @@ body {
   position: relative;
   color: #092032;
   display: grid;
-  justify-content: start;
-  text-align: right;
+  justify-content: center;
+  text-align: center;
 }
 /* }
 @media (max-width: 576px) {
