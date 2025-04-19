@@ -51,26 +51,7 @@
   justify-content: center;
   text-align: center;
 }
-/* }
-@media (max-width: 576px) {
-  .first h5 {
-    font-size: 1.2rem;
-  }
 
-  .first h2 {
-    font-size: 1.5rem;
-  }
-
-  .btn-brand {
-    font-size: 1rem;
-    padding: 0.6rem 1rem;
-  }
-
-  .hero h2,
-  .hero p {
-    font-size: 1.5rem;
-  }
-} */
 @media (max-width: 768px) {
   body {
     font-size: 25px;
@@ -104,19 +85,19 @@
 
 @media (max-width: 576px) {
   body {
-    font-size: 60px;
+    font-size: 60px !important;
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 40px !important;
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
 
   h3 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
 
   p,
@@ -136,6 +117,7 @@
 .content{
   padding: 70px;
   justify-content: center;
+  /* align-items: center; */
 }
 /* BUTTONS */
 .btn {
@@ -166,14 +148,18 @@
 
 /* DONATION SECTION */
 .our-goal {
-  display: grid;
+  /* display: grid;
   place-items: center;
   padding: 50px;
-  text-align: center;
+  text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 50px; */
 }
 
 .support {
-  padding: 30px;
+  padding: 4px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   text-align: center;
   font-size: 0.9rem;
@@ -243,7 +229,8 @@
 }
 .section {
   background-color: rgba(100, 148, 237, 0.103);
-  height: 80vh;
+  /* height: 60vh; */
+  padding: 10px;
 }
 
 .cl {
@@ -285,6 +272,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  align-items: center;
   padding-inline: 30px;
 }
 .motto h6 {
@@ -407,7 +395,7 @@
 }
 .rev {
   background-color: rgba(100, 148, 237, 0.103);
-  padding: 100px;
+  padding: 70px;
   justify-content: center;
   width: 100vw;
 }

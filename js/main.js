@@ -16,7 +16,7 @@ AOS.init({
 $(document).ready(function () {
   $('#hero-slider').owlCarousel({
       loop: true,
-      margin: 10,
+      margin: 8,
       nav: true,
       dots: false,
       autoplay: true,
@@ -43,7 +43,7 @@ $(document).ready(function () {
       nav: true,
       dots: false,
       smartSpeed: 1000,
-      margin: 24,
+      margin: 10,
       navText:["PREV", "NEXT"],
       responsive: {
           0: {items: 1,
