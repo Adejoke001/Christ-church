@@ -148,14 +148,13 @@
 
 /* DONATION SECTION */
 .our-goal {
-  /* display: grid;
+  display: grid;
   place-items: center;
-  padding: 50px;
   text-align: center; */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding-top: 50px; */
+  
 }
 
 .support {
