@@ -1,6 +1,22 @@
-/* body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} */
+body {
+  font-family: sans-serif;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-size: x-large;
+}
+p{
+  font-weight: 500;
+  font-size: medium;
+}
+
 
 /* NAVBAR STYLES */
 .navbar .navbar-nav .nav-link:hover,
@@ -19,25 +35,7 @@
   font-size: 25px;
   color: #092032;
 }
-/* @media (max-width: 576px) {
-  h1 {
-    font-size: 1.75rem;
-  }
-}
-@media (max-width: 768px) {
-  .section h2 {
-    font-size: 1.8rem;
-  }
-  .section h5 {
-    font-size: 1.2rem;
-  }
-  .btn-brand {
-    font-size: 0.9rem;
-  }
-  .content h6 {
-    font-size: 1.2rem;
-  }
-} */
+
 
 /* HERO SECTION */
 .first {
@@ -52,67 +50,6 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  body {
-    font-size: 25px;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  h3 {
-    font-size: 1.75rem;
-  }
-
-  p,
-  .lead,
-  .footer-link {
-    font-size: 1.5rem;
-  }
-
-  .btn,
-  .btn-brand,
-  .read {
-    font-size: 1rem;
-    padding: 0.75rem 1.5rem;
-  }
-}
-
-@media (max-width: 576px) {
-  body {
-    font-size: 60px !important;
-  }
-
-  h1 {
-    font-size: 40px !important;
-  }
-
-  h2 {
-    font-size: 30px !important;
-  }
-
-  h3 {
-    font-size: 30px !important;
-  }
-
-  p,
-  .lead,
-  .footer-link {
-    font-size: 1.05rem;
-  }
-
-  .btn,
-  .btn-brand,
-  .read {
-    font-size: 1rem;
-    padding: 0.75rem 1.2rem;
-  }
-}
 
 .content{
   padding: 70px;
@@ -121,7 +58,7 @@
 }
 /* BUTTONS */
 .btn {
-  padding: 9px 24px;
+  padding: 12px 24px;
   font-weight: 500;
 }
 
@@ -150,8 +87,7 @@
 .our-goal {
   display: grid;
   place-items: center;
-  text-align: center; */
-  display: flex;
+  text-align: center; 
   justify-content: center;
   align-items: center;
   
@@ -229,7 +165,7 @@
 .section {
   background-color: rgba(100, 148, 237, 0.103);
   /* height: 60vh; */
-  padding: 10px;
+  padding: 40px;
 }
 
 .cl {
@@ -252,7 +188,7 @@
   color: #092032;
   border: 1px solid #fff;
   margin-top: 10px 70px;
-  padding: 6px 18px;
+  padding: 8px 20px;
   transition: 0.3s ease;
 }
 
