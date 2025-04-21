@@ -325,8 +325,8 @@ p{
 .review p {
   text-align: center !important;
   align-items: center;
-  font-size: small;
-  max-width: 600px;
+  font-size: medium;
+  max-width: 700px;
 }
 .rev {
   background-color: rgba(100, 148, 237, 0.103);
@@ -339,12 +339,12 @@ p{
   font-style: oblique;
 }
 /*OWL CAROUSEEL*/
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .owl-prev,
   .owl-next {
     display: none !important;
   }
-}
+} */
 .owl-prev,
 .owl-next {
   position: absolute;
