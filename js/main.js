@@ -25,14 +25,20 @@ $(document).ready(function () {
       smartSpeed: 1000,
       navText:["prev", "next"],
       responsive: {
-          0: {
-              items: 1,
+        0: {
+            items: 1,
+            nav: false,   // 👈 Hide arrows
+            dots: true    // 👈 Show dots
           },
           768: {
-              items: 1,
+            items: 1,
+            nav: true,
+            dots: false,
           },
           1024: {
               items: 1,
+              nav: true,
+              dots: false,
           }
       }
   });
@@ -46,12 +52,15 @@ $(document).ready(function () {
       margin: 10,
       navText:["PREV", "NEXT"],
       responsive: {
-          0: {items: 1,
-             nav: false,
-             margin: 0,
+        0: {
+            items: 1,
+            nav: false,   // 👈 Hide arrows
+            dots: true  
           },
-          768: {items: 2,
-             
+          768: {
+            items: 2,
+            nav: true,
+            dots: false
           },
           1140: {items: 2,
                 center: true,
