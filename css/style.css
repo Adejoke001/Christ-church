@@ -444,6 +444,9 @@ h2 {
   font-weight: 700;
   font-size: larger;
 }
+.dis{
+  padding-left: 8px;
+}
 .bot {
   justify-content: center;
   align-items: center;
