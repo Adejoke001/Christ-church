@@ -15,6 +15,7 @@ h6 {
 p{
   font-weight: 500;
   font-size: medium;
+  font: 500;
 }
 
 
@@ -140,7 +141,7 @@ p{
 #line {
   margin-top: 30px;
   height: 8px;
-  width: 70%;
+  width: 50%;
   background-color: rgba(100, 148, 237, 0.9);
   margin-left: auto;
   margin-right: auto;
@@ -339,12 +340,11 @@ p{
   font-style: oblique;
 }
 /*OWL CAROUSEEL*/
-/* @media (max-width: 576px) {
-  .owl-prev,
-  .owl-next {
+ @media (max-width: 576px) {
+  .owl-nav {
     display: none !important;
   }
-} */
+}
 .owl-prev,
 .owl-next {
   position: absolute;
@@ -369,7 +369,7 @@ p{
 }
 .owl-next:hover,
 .owl-prev:hover {
-  background-color: rgba(100, 148, 237, 0.9) !important;
+  background-color: navy !important;
 }
 #hero-slider{
   position: relative;
@@ -420,11 +420,21 @@ p{
 }
 .discover {
   background-color: rgba(100, 148, 237, 0.103);
-  padding: 80px;
-  margin-bottom: 70px;
+  padding-top: 70px;
+  /* margin-bottom: 70px; */
+  padding-bottom: 60px;
 }
 .discover .btn {
   text-align: justify;
+}
+.discover h6,h2{
+  font-weight: 700;
+  font-size: larger;
+}
+.bot{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .news {
   padding-top: 50px;
@@ -535,7 +545,7 @@ p{
   background-color:  navy;
   border:  0 0.5rem 0.5rem 0;
   color: #fff;
-  border-radius: 40%;
+  border-radius: 100%;
 
 }
 .footer-bottom a{
@@ -546,7 +556,7 @@ p{
 .footer-bottom input[type="email"],
 .footer-bottom input[type="text"] {
   border: 2px solid #ccc !important; /* or whatever color you want */
-  border-radius: 6px;
+  border-radius: 10px;
   outline: none;
   background-color: #f5f5f5 !important;
   height: 38px;
