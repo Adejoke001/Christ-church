@@ -585,7 +585,7 @@ h2 {
 @media (max-width: 768px) {
   .navbar-brand,
   .nav-link {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .first,
@@ -601,13 +601,13 @@ h2 {
   .btn-brand {
     width: 100%;
     display: block;
-    margin: 10px auto;
+    margin: 12px auto;
   }
 
   .solve p,
   .faith p,
   .review p {
-    font-size: 14px;
+    font-size: 16px;
     padding: 0 10px;
   }
 
@@ -617,7 +617,7 @@ h2 {
 
   .news,
   .support {
-    margin: 10px;
+    margin: 12px;
   }
 
   .owl-prev,
